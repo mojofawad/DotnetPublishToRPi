@@ -1,0 +1,1 @@
+This file exists to give the project structure and maintain a clean repo view
