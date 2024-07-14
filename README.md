@@ -13,7 +13,7 @@ Quick sample where a .NET project is created on one machine, published, then tra
 3. On your development machine, open a terminal and navigate to the console project's directory `cd ./src/`
 4. Run the following command to publish the project in the `PublishHere/` directory:
 ```bash
-dotnet publish --runtime linux-arm64 --self-contined -o ../PublishHere/
+dotnet publish --runtime linux-arm64 --self-contained -o ../PublishHere/
 ```
 > [!NOTE]
 > Confirm that the `PublishHere` directory contains the published files. The `PublishHere` directory was specifically created above the root directory to simplify my understanding of the `publish` command
